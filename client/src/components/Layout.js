@@ -9,14 +9,14 @@ function Layout({ children }) {
     <div className="app-layout">
       <header className="app-header slide-down">
         <div className="brand">
-          <img src={logo} alt="Saisha logo" className="logo" />
+          <img src={logo} alt="Saisha-Mahadik logo" className="logo" />
           <div>
-            <h1 className="brand-title">Saisha</h1>
+            <h1 className="brand-title">Saisha-Mahadik</h1>
             <p className="nav-subtitle">User Management</p>
           </div>
         </div>
       </header>
-      <AnimatedBanner message="Welcome to Saisha 🚀" />
+      <AnimatedBanner message="Welcome to Saisha-Mahadik 🚀" />
       <div className="app-body">
         <aside className="sidebar slide-in-left">
           <h3>Connect</h3>
@@ -56,7 +56,7 @@ function Layout({ children }) {
         <main className="main-content fade-in">{children}</main>
       </div>
       <footer className="app-footer">
-        <p>&copy; {new Date().getFullYear()} Saisha. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Saisha-Mahadik. All rights reserved.</p>
       </footer>
 
       <button className="help-btn" onClick={() => setShowInfo(true)}>

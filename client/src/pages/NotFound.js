@@ -5,7 +5,7 @@ import logo from "../logo.svg";
 function NotFound() {
   return (
     <div className="container fade-in not-found">
-      <img src={logo} alt="Saisha logo" className="logo" />
+      <img src={logo} alt="Saisha-Mahadik logo" className="logo" />
       <h2>404 - Page Not Found</h2>
       <p>The page you are looking for does not exist.</p>
       <Link to="/login">
